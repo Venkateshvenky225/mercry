@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mercury table</title>
+    <style>
+        table  {
+            border: 1px solid;
+        }
+        tr td {
+            border: 1px solid;
+        }
+        form {
+            background-color: #8B8B8B;
+        }
+        h3 {
+            text-align: center;
+            background-color: #800000;
+        }
+    </style>
+</head>
+<body>
+    <form class="venky">
+    <table>
+        <h3>Mercury Drug Delivery Service-parner Invite</h3>
+        <tr>
+            <td colspan="2">Pharmacy name*</td>
+        </tr>
+        <tr>
+            <td>Pin(primary location)*</td>
+            <td>City*</td>
+        </tr>
+        <tr>
+            <td>Pharmacy owner*</td>
+            <td>Phone number*</td>
+        </tr>
+        <tr>
+            <td colspan="2">Email*</td>
+        </tr>
+        <tr>
+            <td colspan="2">Website link/online listinig link</td>
+        </tr>
+        <tr>
+            <td>Number of otlets*</td>
+            <td>Primary Area of outlet*</td>
+        </tr>
+        <tr>
+            <td>Minimum purchase cost*</td>
+            <td>Estiblishment:independent/Chain*</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" id="medicine">
+                <label for="medicine">Medicine available</label>
+                <input type="checkbox" id="gsl">
+                <label for="gsl">General Sales List Medicines(GSL)</label>
+                <input type="checkbox" id="pmadicine">
+                <label for="pmadicine">pharmacy Medicines(p)</label>
+                <input type="checkbox" id="ponly">
+                <label for="ponly">prescription only medicines</label>
+                <input type="checkbox" id="cds">
+                <label for="cds">controlled Drugs only</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Retail Drug Liesence(jpeg/pdf)*
+            <input type="file" id="cfile">
+            <label for="cfile"></label></td>
+            <td>GSTIN/PAN*
+                <input type="file" id="gpan">
+                <label for="gpan"></label>
+            </td>
+            <tr>
+                <td>FSSAI(jpeg/PDF)*
+                    <input type="file" id="fssai">
+                    <label for="fssai"></label>
+                </td>
+                <td>Facade/Pharmacy-shelves/Refridgerator(jpeg)
+                    <input type="file" id="fcade">
+                    <label for="fcade"></label>
+                </td>
+            </tr>
+        </tr>
+    </table>
+    <input type="checkbox" id="agree">
+    <a href="#agree">I agree to terms of services</a><br> <br>
+    <button>SUBMIT</button>
+</form>
+</body>
+</html>
